@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFL", "TFL.csproj", "{3D29E8CC-E41D-49CA-B487-BB1A28E73E14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLTestProject", "..\TFLTestProject\TFLTestProject.csproj", "{97D645A8-21E6-4B2F-B6A4-845F0F3AD157}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{3D29E8CC-E41D-49CA-B487-BB1A28E73E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D29E8CC-E41D-49CA-B487-BB1A28E73E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D29E8CC-E41D-49CA-B487-BB1A28E73E14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97D645A8-21E6-4B2F-B6A4-845F0F3AD157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97D645A8-21E6-4B2F-B6A4-845F0F3AD157}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97D645A8-21E6-4B2F-B6A4-845F0F3AD157}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97D645A8-21E6-4B2F-B6A4-845F0F3AD157}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

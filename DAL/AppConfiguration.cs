@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TFL
+namespace TFL.DAL
 {
     public class AppConfiguration
     {

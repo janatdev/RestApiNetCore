@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace TFL
+namespace TFL.DAL
 {
     [DataContract(Name = "repo")]
     public class Repository

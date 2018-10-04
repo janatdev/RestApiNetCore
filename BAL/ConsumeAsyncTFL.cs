@@ -7,20 +7,31 @@ using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using TFL.DAL;
 
-namespace TFL
+namespace TFL.BAL
 {
     public class ConsumeAsyncTfl : IConsumeAsyncTfl
     {
         private static readonly HttpClient Client = new HttpClient();
+        private readonly ILogger<ConsumeAsyncTfl> _logger;
+
         public static IConfiguration Configuration { get; set; }
+
+        public ConsumeAsyncTfl(ILogger<ConsumeAsyncTfl> logger)
+        {
+            _logger = logger;
+        }
 
         public async Task<List<Repository>> RoadStatusCheckTask()
         {
+            //_logger.LogWarning("Logger warnings");
+
             //Getting secrets from the secrets.json file.
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile(@"C:\Projects\TFL\GUID\secrets.json", optional: true, reloadOnChange: true);
+                .AddJsonFile(@"C:\Projects\TFL\Secrets\secrets.json", optional: true, reloadOnChange: true);
 
             IConfigurationRoot configuration = builder.Build();
             var appConfig = configuration.GetSection("application").Get<AppConfiguration>();

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using TFL.DAL;
 
-namespace TFL
+namespace TFL.BAL
 {
     public interface IConsumeAsyncTfl
     {
