@@ -18,36 +18,7 @@ namespace TFL
     class Program
     {
        public static void Main(string[] args)
-       {
-
-            //App app = new App();
-            //app.Run();
-
-
-
-            /*
-
-            //setup our DI
-            var serviceProvider = new ServiceCollection()
-                .AddLogging()
-                .AddSingleton<IConsumeAsyncTfl, ConsumeAsyncTfl>()
-                .BuildServiceProvider();
-
-            var logger = serviceProvider.GetService<ILoggerFactory>()
-                .CreateLogger<Program>();
-            logger.LogDebug("Starting application");
-
-            //do the actual work here
-            var app = serviceProvider.GetService<App>();
-            app.Run();
-
-            logger.LogDebug("All done!");
-            */
-
-
-
-
-            
+       {                      
             // create service collection
             var serviceCollection = new ServiceCollection();
             ConfigureServices(serviceCollection);
