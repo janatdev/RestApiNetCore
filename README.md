@@ -12,7 +12,7 @@ Async Task have been used.
 Instruction to Download this Repo.
 
 1. Create a new folder on 'C:\' Name as "Projects" 
-2. Clone/Download (zip) repo under "Projects" folder
+2. Clone/Download (zip) repo under "Projects" folder.
 3. Clone/Download repo from this link (https://github.com/janatdev/ApiTest) under "Projects" folder. Hopefully it will load both projects this way.
 4. Open the Tfl application (note. don't open the Tfl.sln)
 5. Restore the Nugget packages.
@@ -38,5 +38,6 @@ Few TestCase is implemented too.
 *************************************************************
 
 If anything which is not clear please contact me. 
-Many other things could have been added too.  
 Due to the time shortage I have done this work so far.
+
+Hope this time it works. I have actually created the console project and test project using the dotnet commands. I am not sure if thats causing some dependency issue or what. for me its working fine. Let me know if it still doesnt work I will look to send by some other ways.
