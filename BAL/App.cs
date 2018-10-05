@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Microsoft.Extensions.Logging;
 
 namespace TFL.BAL
@@ -49,7 +47,7 @@ namespace TFL.BAL
                     }
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("Not a valid Road");
                 Console.ReadLine();
