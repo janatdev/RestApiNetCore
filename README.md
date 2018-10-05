@@ -17,7 +17,8 @@ Instruction to Download this Repo.
 4. Open the Tfl application (note. don't open the Tfl.sln)
 5. Restore the Nugget packages.
 6. Add AppId and App key in the secrets.json file under the GUID Folder.
-7. Build the App, Run the App.
+7. Build the App
+8. Run the App.
 
 *************************************************************
 
