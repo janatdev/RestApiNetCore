@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Runtime.Serialization.Json;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using TFL.BAL;
-using Unity;
-using Unity.Lifetime;
 
 namespace TFL
 {
@@ -44,7 +33,5 @@ namespace TFL
             // add app
             serviceCollection.AddTransient<App>();
         }
-
-
     }
 }
